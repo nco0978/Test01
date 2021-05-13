@@ -19,4 +19,13 @@
     <string name="perfil">Perfil</string>
     <string name="opciones">Opciones</string>
     <string name="mapa">Mapa</string>
+    <string name="que_deseas_reciclar">¿Que deseas reciclar?</string>
+    <string name="carton">Carton.</string>
+    <string name="plasticos">Plasticos.</string>
+    <string name="vidrio">Vidrio.</string>
+    <string name="aceite">Aceite.</string>
+    <string name="otros">Otros.</string>
+    <string name="electr_nica">Electrónica.</string>
+    <string name="atras">Atras</string>
+    <string name="aceptar">Aceptar</string>
 </resources>
