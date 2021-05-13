@@ -27,5 +27,10 @@
     <string name="otros">Otros.</string>
     <string name="electr_nica">Electrónica.</string>
     <string name="atras">Atras</string>
-    <string name="aceptar">Aceptar</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="recolector">Recolector.</string>
+    <string name="punto_m_s_cercano">Punto más cercano.</string>
+    <string name="tituloPopup2">Forma de Reciclar.</string>
+    <string name="parrafoPopUp2">Escoge una de las dos opciones, ir al punto de reciclaje o contactar con un recolector.</string>
+    <string name="btnAceptar">Aceptar</string>
 </resources>

@@ -5,6 +5,7 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:gravity="center"
         android:id="@+id/txtTituloPopUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,6 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
+        android:gravity="center"
         android:id="@+id/checkBoxElectro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,6 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
+        android:gravity="center"
         android:id="@+id/checkBoxCarton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,6 +46,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
+        android:gravity="center"
         android:id="@+id/checkBoxPlasticos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -55,6 +59,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
+        android:gravity="center"
         android:id="@+id/checkBoxVidrio"
         style="@style/Widget.AppCompat.CompoundButton.CheckBox"
         android:layout_width="wrap_content"
@@ -68,6 +73,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
+        android:gravity="center"
         android:id="@+id/checkBoxAceite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -80,6 +86,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
+        android:gravity="center"
         android:id="@+id/checkBoxOtros"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -92,18 +99,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:gravity="center"
         android:id="@+id/bntAceptar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="260dp"
-        android:layout_marginLeft="260dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginLeft="236dp"
         android:layout_marginTop="600dp"
-        android:text="@string/aceptar"
+        android:text="@string/btnSiguiente"
         app:backgroundTint="#2E7D32"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:gravity="center"
         android:id="@+id/bntAtras"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

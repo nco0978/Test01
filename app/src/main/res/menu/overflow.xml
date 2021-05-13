@@ -9,6 +9,6 @@
         android:id="@+id/PuntoCercano01"
         android:title="@string/opciones" />
     <item
-        android:id="@+id/Recolector"
+        android:id="@+id/Perfil"
         android:title="@string/perfil" />
 </menu>
