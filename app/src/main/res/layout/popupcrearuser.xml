@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imguseradd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="52dp"
+        android:contentDescription="@string/imgagregar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/add_avatar" />
+
+    <EditText
+        android:id="@+id/etxtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="215dp"
+        android:autofillHints="@string/etxtnombre"
+        android:ems="10"
+        android:hint="@string/etxtnombre"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etxtEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/etxtedad"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etxtNombre"/>
+
+    <EditText
+        android:id="@+id/etxtphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/etxtnumerocontacto"
+        android:inputType="phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etxtEdad"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/etxtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/etxtcorreo"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etxtphone"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/etxtUbicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/etxtubicacion"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etxtEmail"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/etxtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/etxtpassword"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etxtUbicacion"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/btnAddUser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etxtPassword" />
+</androidx.constraintlayout.widget.ConstraintLayout>

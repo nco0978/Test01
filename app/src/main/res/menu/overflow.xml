@@ -6,9 +6,6 @@
         android:id="@+id/MapaGoogle"
         android:title="@string/mapa" />
     <item
-        android:id="@+id/PuntoCercano01"
-        android:title="@string/opciones" />
-    <item
         android:id="@+id/Perfil"
         android:title="@string/perfil" />
 </menu>

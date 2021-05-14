@@ -8,8 +8,8 @@
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapViewP"
-        android:layout_width="404dp"
-        android:layout_height="675dp"
+        android:layout_width="412dp"
+        android:layout_height="729dp"
         android:layout_marginTop="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,13 +18,15 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/botonR"
+        android:id="@+id/botonReciclaje"
         android:layout_width="104dp"
         android:layout_height="91dp"
         android:layout_marginStart="304dp"
         android:layout_marginLeft="304dp"
-        android:layout_marginTop="588dp"
+        android:layout_marginTop="592dp"
         android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/imagenPerfil"
         android:foreground="@drawable/sostenible"
         app:backgroundTint="#4CAF50"
         app:layout_constraintStart_toStartOf="parent"
