@@ -49,4 +49,5 @@
     <string name="etxtubicacion">Ubicación:</string>
     <string name="etxtpassword">Password:</string>
     <string name="btnAddUser">Enviar</string>
+    <string name="txtTituloRecolectores">Recolectores</string>
 </resources>
