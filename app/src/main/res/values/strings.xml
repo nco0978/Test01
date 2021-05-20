@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Test01</string>
+    <string name="app_name">Recycle It</string>
     <string name="title_activity_menu">menu</string>
 
     <!-- Preference Titles -->
