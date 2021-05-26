@@ -5,6 +5,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,7 +21,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 
-public class BlankFragment extends Fragment {
+public class BlankFragment extends Fragment implements OnMapReadyCallback {
     public BlankFragment() {
         // Required empty public constructor
     }
@@ -47,15 +48,13 @@ public class BlankFragment extends Fragment {
         super.onCreate(savedInstanceState);
     }
 
-
-
-    // @Override
+    @Override
     public void onMapReady(GoogleMap googleMap) {
         MapsInitializer.initialize(getContext());
         map = googleMap;
         //puntos GO VEGAN
         LatLng restaurantSoju = new LatLng(-33.4381297,-70.6487444);
-       // map.addMarker(new MarkerOptions().position(restaurantSoju).title("Restaurant Soju Vegano Vegetariano").snippet("Dirección: Merced 821, 17, Santiago, Región Metropolitana").icon(BitmapDescriptorFactory.fromResource(R.drawable.)));
+        map.addMarker(new MarkerOptions().position(restaurantSoju).title("Restaurant Soju Vegano Vegetariano").snippet("Dirección: Merced 821, 17, Santiago, Región Metropolitana").icon(BitmapDescriptorFactory.fromResource(R.drawable.)));
         //Centrar Mapa
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(restaurantSoju, 11));
     }
