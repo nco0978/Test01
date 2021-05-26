@@ -50,4 +50,6 @@
     <string name="etxtpassword">Password:</string>
     <string name="btnAddUser">Enviar</string>
     <string name="txtTituloRecolectores">Recolectores</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
