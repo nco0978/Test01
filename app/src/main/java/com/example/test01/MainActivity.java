@@ -19,7 +19,4 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setTitle("Cambio 1 commit");
     }
-
-
-
 }
