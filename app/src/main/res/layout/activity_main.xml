@@ -8,7 +8,7 @@
 
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentMap"
+        android:id="@+id/contenedorFragment"
         android:name="com.example.test01.BlankFragment"
         android:layout_width="411dp"
         android:layout_height="733dp"
@@ -17,5 +17,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout="@layout/fragment_blank" />
 </androidx.constraintlayout.widget.ConstraintLayout>

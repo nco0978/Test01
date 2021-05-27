@@ -37,7 +37,7 @@ public class BlankFragment extends Fragment implements OnMapReadyCallback {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        miMapa = view.findViewById(R.id.mapViewP);
+        miMapa = view.findViewById(R.id.mapViewMapa);
         miMapa.onCreate(null);
         miMapa.onResume();
         miMapa.getMapAsync((OnMapReadyCallback) this);
@@ -52,9 +52,8 @@ public class BlankFragment extends Fragment implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         MapsInitializer.initialize(getContext());
         map = googleMap;
-        //puntos GO VEGAN
         LatLng restaurantSoju = new LatLng(-33.4381297,-70.6487444);
-        map.addMarker(new MarkerOptions().position(restaurantSoju).title("Restaurant Soju Vegano Vegetariano").snippet("Dirección: Merced 821, 17, Santiago, Región Metropolitana").icon(BitmapDescriptorFactory.fromResource(R.drawable.)));
+        map.addMarker(new MarkerOptions().position(restaurantSoju).title("Restaurant Soju Vegano Vegetariano").snippet("Dirección: Merced 821, 17, Santiago, Región Metropolitana").icon(BitmapDescriptorFactory.fromResource(R.drawable.ping)));
         //Centrar Mapa
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(restaurantSoju, 11));
     }
